@@ -28,7 +28,9 @@ def run_query(cypher_query):
     try:
         with driver.session(database=DATABASE) as session:
             result = session.run(cypher_query)
-            return [record.data() for record in result]
+            record = [record.data() for record in result]
+            print(f"query result:{record}")
+            return record
     except Exception as e:
         logging.exception(f"Error running query: {e}")
         raise
@@ -45,6 +47,7 @@ def generate_output(input_text, max_length=100):
         # Generate output
         output_ids = model.generate(input_ids, max_length=max_length)
         output_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+        output_text = output_text.rstrip(';')+';'
 
         return output_text
     except Exception as e:
