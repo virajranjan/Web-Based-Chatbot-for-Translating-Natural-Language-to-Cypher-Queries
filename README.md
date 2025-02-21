@@ -35,9 +35,8 @@ This web-based chatbot translates natural language questions into Cypher queries
 
 1. **Clone Repository**
    ```bash
-    git clone git@github.com:virajranjanWeb-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries.git
-    cd Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries
-
+    git clone git@github.com:virajranjan/Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries.git
+    cd Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries 
    
 2. **install python dependencies** 
    ```bash 
