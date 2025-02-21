@@ -69,8 +69,7 @@ This web-based chatbot translates natural language questions into Cypher queries
 
 This project is licensed under the MIT License, with additional terms for dependencies:
 
-- **Code**: MIT License (see below)
-- **Model**: [Gemma Terms](https://huggingface.co/neo4j-graph-ds/neo4j-t2c-llama2-7b)
+- **Code**: MIT License 
 - **Neo4j**: [Community License](https://neo4j.com/licensing/)
 
 
