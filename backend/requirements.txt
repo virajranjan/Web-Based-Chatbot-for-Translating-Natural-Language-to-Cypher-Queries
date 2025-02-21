@@ -1,0 +1,10 @@
+neo4j
+torch 
+python-dotenv
+transformers
+peft
+bitsandbytes
+protobuf
+sentencepiece
+flask
+flask_cors
