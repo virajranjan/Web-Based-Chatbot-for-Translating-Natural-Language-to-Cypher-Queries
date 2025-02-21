@@ -36,16 +36,21 @@ This web-based chatbot translates natural language questions into Cypher queries
 1. **Clone Repository**
    ```bash
     git clone git@github.com:virajranjan/Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries.git
-    cd Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries 
-   
-2. **install python dependencies** 
+    cd Web-Based-Chatbot-for-Translating-Natural-Language-to-Cypher-Queries
+2. **Activate virtual environment**
+   ```bash
+    cd backend
+    python3 -m venv venv
+    source venv/bin/activate
+     
+3. **install python dependencies** 
    ```bash 
-   cd backend
-   pip install -r requirements.txt
-3. **set Up Neo4j**
+    pip install -r requirements.txt
+    
+4. **set Up Neo4j**
    Install, start a new database, and configure with username neo4j and password password.
 
-4. **Install Frontend Dependencies**
+5. **Install Frontend Dependencies**
    ```bash
    cd frontend
    npm install
