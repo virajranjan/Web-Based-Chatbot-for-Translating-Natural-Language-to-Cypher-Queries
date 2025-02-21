@@ -59,7 +59,10 @@ This web-based chatbot translates natural language questions into Cypher queries
 ## 4. Usage Instruction
 ### Usage Instructions
 
-1. **Start the backend**
+1. **Add env file**
+    create a env file that contains everything from .env.example
+
+2. **Start the backend**
    ```bash
    python app.py
 
