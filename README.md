@@ -17,8 +17,6 @@ This web-based chatbot translates natural language questions into Cypher queries
 - **Flask Backend**: For API services
 - **React Frontend**: For user interaction
 
-### System Architecture Diagram
-*(Note: Insert a diagram here if available, e.g., using a tool like Draw.io or referencing an image in the repo: `![Architecture Diagram](path/to/diagram.png)`)*
 
 <a name="features"></a>
 ## 2. Features
